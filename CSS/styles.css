@@ -1,0 +1,64 @@
+html {
+  font-size: 10px;
+}
+
+table {
+  table-layout: fixed;
+}
+
+body {
+  background-color: #DAEFEC;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #507676;
+  border-width: 5px;
+  width: 8%;
+}
+
+h1 {
+  color: #006666;
+  font-family: 'Mr De Haviland', cursive;
+  font-weight: lighter;
+  font-size: 75px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h3 {
+  color: #207979;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+}
+
+p {
+  font-family: 'Bentham', serif;
+  color: #518E85;
+  font-size: 18px;
+}
+
+ul {
+  font-family: American Typewriter;
+  color: #518E85;
+  font-size: 1.5rem;
+}
+
+a {
+  font-family: American Typewriter;
+  color: #51798E;
+  font-size: 1.5rem;
+}
+
+ol {
+  font-family: American Typewriter;
+  color: #518E85;
+  font-size: 1.5rem;
+}
+
+table {
+  font-family: American Typewriter;
+  color: #518E85;
+  font-size: 1.5rem;
+}
