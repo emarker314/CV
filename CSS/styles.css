@@ -2,12 +2,34 @@ html {
   font-size: 10px;
 }
 
+head {
+  text-align: left;
+}
+
 table {
   table-layout: fixed;
 }
 
+.head-td {
+  padding-left: 20px
+}
+
 body {
   background-color: #DAEFEC;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1.5rem;
+}
+
+.info {
+  font-family: 'BioRhyme Expanded', serif;
+  color: #660000;
+  margin: 0 0;
+}
+
+.info-2 {
+  font-family: 'Cutive Mono', monospace;
+  padding-top: 10px;
+  margin: 0 0 50px;
 }
 
 hr {
@@ -20,16 +42,16 @@ hr {
 
 h1 {
   color: #006666;
-  font-family: 'Mr De Haviland', cursive;
+  font-family: 'Sacramento', cursive;
   font-weight: lighter;
-  font-size: 75px;
+  font-size: 85px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 h3 {
   color: #207979;
-  font-family: 'Playfair Display', serif;
+  font-family: 'BioRhyme Expanded', serif;
   font-size: 2rem;
 }
 
@@ -40,29 +62,32 @@ p {
 }
 
 ul {
-  font-family: American Typewriter;
   color: #518E85;
-  font-size: 1.5rem;
 }
 
 a {
-  font-family: American Typewriter;
   color: #51798E;
-  font-size: 1.5rem;
 }
 
 ol {
-  font-family: American Typewriter;
   color: #518E85;
-  font-size: 1.5rem;
 }
 
 table {
-  font-family: American Typewriter;
   color: #518E85;
-  font-size: 1.5rem;
 }
 
 .contact-heading {
-  margin: 150px 0 0 100px;
+  margin-top: 150px;
+  font-size: 85px;
+}
+
+.contact-body {
+  margin-left: 50px;
+  text-align: center;
+  color: #207979;
+}
+.contact-ul {
+  display: inline-block;
+  text-align: left;
 }
